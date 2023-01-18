@@ -20,6 +20,9 @@ from myapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home, name='home')  # left blank means default URL i.e. localhost.
+    path('', views.home, name='home'),  # left blank means default URL i.e. localhost.
     # name here doesn't have to be the same as the function name
+    path('maintenance', views.maintenance, name='maintenance'),
+    path('currencies', views.view_currencies, name='currencies'),
+
 ]
