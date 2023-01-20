@@ -7,3 +7,4 @@ psycopg2-binary~=2.9.5
 postgres~=4.0
 requests~=2.28.2
 beautifulsoup4~=4.11.1
+folium~=0.14.0
